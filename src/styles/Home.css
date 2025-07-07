@@ -1,0 +1,27 @@
+h3{
+    color: black;
+}
+
+
+/* THIS IS FOR THE CIRCLE USER'S */
+.maplibregl-marker {
+    background: transparent;
+    width: 50px;
+    height: 50px;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+    padding: 0px;
+    position: relative;
+}
+
+.profileImage{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: 2px solid black;
+}
+
+/* THIS IS FOR THE POPUP HAPPENING */
+.maplibregl-popup-tip{
+    display: none;
+}
